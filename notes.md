@@ -10,3 +10,8 @@
  Note: slug means url pattern that represent the blog title.It is very useful for SEO.(Search Engine optimization).
 
  Note: Install Pillow while using Media files.
+
+ Note : Foriegn key is many to one Relationship 
+ For example: A category can be associated with MANY blog posts, but a blog post can only have ONE 
+ category object.
+ For example: An Author can write MANY Blog posts, but a Blog post can only be written by ONE Author.

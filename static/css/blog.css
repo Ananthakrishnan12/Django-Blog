@@ -1,5 +1,24 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
+.jumbotron {
+  position: relative;
+  color: white;
+  border-radius: 0;
+  padding: 3rem 1.5rem;
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  min-height: 300px; /* Adjust based on your design */
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+      padding: 5rem 2rem;
+      min-height: 400px; /* Adjust for larger screens */
+  }
+}
+
+
 .blog-header {
   border-bottom: 1px solid #e5e5e5;
 }
