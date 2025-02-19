@@ -1,6 +1,6 @@
 # Admin1:
  Name:Ananthakrishnan
- Email:ananthmle@gmail.com
+ Email:XXXXXXXXX
  Password:12345
 
  Note: gitignore --> Ignoring files that we dont want to have in the Github.
