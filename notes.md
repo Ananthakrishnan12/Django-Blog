@@ -15,3 +15,8 @@
  For example: A category can be associated with MANY blog posts, but a blog post can only have ONE 
  category object.
  For example: An Author can write MANY Blog posts, but a Blog post can only be written by ONE Author.
+
+
+ username1: test1
+ email:test1@gmail.com
+ password: test1@12345

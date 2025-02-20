@@ -25,9 +25,15 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home,name="home"),
     path('category/',include('blogs.urls')),
-    path('<slug:slug>/',BlogViews.blogs,name="blogs"),
+    path('blogs/<slug:slug>/',BlogViews.blogs,name="blogs"),
     # Search Endpoints...
-    path('blogs/search/',BlogViews.search,name="search")
+    path('blogs/search/',BlogViews.search,name="search"),
+    # Register Endpoints...
+    path('register/',views.register,name="register"),
+    # Login Endpoints...
+    path('login/',views.login,name="login"),
+    # Logout Endpoints...
+    path('logout/',views.logout,name="logout"),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
