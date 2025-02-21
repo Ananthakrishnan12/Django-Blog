@@ -2,7 +2,7 @@
     <div class="nav flex-column nav-pills">
         <a class="nav-link text-dark {% if request.path == '/dashboard/' %} bg-warning{% endif %}"  href="{% url "dashboard" %}">Dashboard</a>
         <a class="nav-link text-dark {% if '/categories/' in request.path %} bg-warning{% endif %}"  href="{% url "categories" %}" >Categories</a>
-        <a class="nav-link"  href="" >Posts</a>
+        <a class="nav-link text-dark {% if '/posts/' in request.path %} bg-warning{% endif %}"  href="{% url "posts" %}">Posts</a>
         <a class="nav-link"  href="" >Logout</a>
       </div>
 </div>

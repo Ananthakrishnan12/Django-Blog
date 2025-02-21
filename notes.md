@@ -35,3 +35,7 @@
  --> pip freeze > requirnments.txt
 
  To install required libaries. --> pip install -r requirnments.txt --upgrade
+
+
+Note: whenever we are uploading the image through the frontend by using Django forms we should
+use enctype in the HTML page and use request.files in the views.py in the corresponding function. 
