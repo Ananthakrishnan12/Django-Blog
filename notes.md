@@ -20,3 +20,18 @@
  username1: test1
  email:test1@gmail.com
  password: test1@12345
+
+ username2:editor1
+ email:editor1@gmail.com
+ password:editor1@123456
+
+ username3:Manager1
+ email:hari@gmail.com
+ password:manager1@123456
+
+ # Groups?:
+ Groups are collection of permissions.
+
+ --> pip freeze > requirnments.txt
+
+ To install required libaries. --> pip install -r requirnments.txt --upgrade
