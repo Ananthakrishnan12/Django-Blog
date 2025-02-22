@@ -29,6 +29,10 @@
  email:hari@gmail.com
  password:manager1@123456
 
+username4:sujith2
+ email:sujith@gmail.com
+ password:sujith2@12345
+
  # Groups?:
  Groups are collection of permissions.
 
