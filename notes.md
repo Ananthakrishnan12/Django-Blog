@@ -43,3 +43,14 @@ username4:sujith2
 
 Note: whenever we are uploading the image through the frontend by using Django forms we should
 use enctype in the HTML page and use request.files in the views.py in the corresponding function. 
+
+
+use pythonanywhere for Deployment..
+before going to deployment..
+1.create a updated requirmnents.txt
+2.backports.zoneinfo only works if the servers python version is less than 3.9
+3.Remove db.sqlite3 from gitignore.
+4.Remove media from gitignore.
+
+
+use pip freeze > requirnments.txt
