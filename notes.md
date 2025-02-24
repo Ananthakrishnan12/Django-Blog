@@ -54,3 +54,13 @@ before going to deployment..
 
 
 use pip freeze > requirnments.txt
+
+Pythonanywhere notes:
+To find where we are in the server...
+type --> pwd
+type --> git clone (github project respository link....)
+type -->ls (To see the colened github project...)
+
+Create virtual environment..
+
+next web app and wsgi file.
